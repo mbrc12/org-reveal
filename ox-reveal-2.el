@@ -1,3 +1,4 @@
+;;; ox-reveal-2 edited by mbrc
 ;;; ox-reveal.el --- reveal.js Presentation Back-End for Org Export Engine
 
 ;; Copyright (C) 2013 Yujie Wen
@@ -1503,6 +1504,6 @@ Return output file name."
     (add-to-list 'org-structure-template-alist
                  (cons org-reveal-note-key-char "notes"))))
 
-(provide 'ox-reveal)
+(provide 'ox-reveal-2)
 
 ;;; ox-reveal.el ends here
