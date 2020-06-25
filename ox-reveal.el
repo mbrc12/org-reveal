@@ -713,7 +713,7 @@ custom variable `org-reveal-root'."
 // https://github.com/hakimel/reveal.js#configuration
 Reveal.initialize({
 "
-     (if-format "%s,\n" (cdr reveal-4-plugin))
+    ;; (if-format "%s,\n" (cdr reveal-4-plugin))
  
      (let ((options (plist-get info :reveal-init-options)))
        (and (string< "" options)
